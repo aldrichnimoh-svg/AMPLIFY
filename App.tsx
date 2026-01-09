@@ -56,19 +56,6 @@ export default function App() {
       <Qualification />
       <ContactForm />
 
-      {/* Final CTA Reinforcement */}
-      <section className="py-20 px-6 text-center bg-brand-midnight border-t border-white/5 relative">
-        <div className="absolute inset-0 bg-brand-electric/5 pointer-events-none" />
-        <h2 className="text-3xl md:text-4xl font-display font-bold uppercase mb-8 relative z-10">
-          If you're ready to grow your music <br className="hidden md:block"/> the right way, let's amplify it.
-        </h2>
-        <div className="relative z-10">
-          <Button onClick={handleWhatsAppClick} size="lg">
-            Chat on WhatsApp
-          </Button>
-        </div>
-      </section>
-
       <Footer />
 
       {/* Persistent Mobile/Tablet Sticky CTA */}
